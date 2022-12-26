@@ -9,7 +9,7 @@
 body {
     background: #000;
     color: #fff;
-    font-family: Hind, sans-serif;
+    font-family: Hind, Arial, sans-serif;
 }
 
 section {
@@ -18,7 +18,8 @@ section {
 
 #logo {
     color: #40ff00;
-    font-family: Posto One, sans-serif;
+    font-family: Prosto One, sans-serif;
+    letter-spacing: 4px;
     float: left;
     margin-left: 20px;
 }

@@ -49,3 +49,27 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
         </ul>
     </li>
 </ul>
+
+## Design
+
+<ul>
+    <li>
+        Color Scheme
+        <ul>
+            <li>
+                The main colors used are black and white for contrast and bright shade of green and a darker shade of green to make elements stand out.
+            </li>
+        </ul>
+    </li>
+    <li>
+        Typography
+        <ul>
+            <li>
+                The Hind font is the main font used throughout the site with Arial and sans serif as fallback fonts in case the font is not being imported to the site correctly for any reason. Hind is a clean font that is easy to read and understand.
+            </li>
+            <li>
+                The Prosto One font is used for the logo because it is unique and distinguishable from the rest of the content.
+            </li>
+        </ul>
+    </li>
+</ul>
