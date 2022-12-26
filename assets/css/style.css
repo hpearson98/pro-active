@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Prosto+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: Hind, sans-serif;
+}
+
+section {
+    clear: both;
+}
+
+#logo {
+    color: #40ff00;
+    font-family: Posto One, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    display: inline;
+}
+
+#menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #269700;
+}
+
+.active {
+    border-bottom: 1px solid #269700;
 }
