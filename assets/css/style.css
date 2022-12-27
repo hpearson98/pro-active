@@ -78,3 +78,20 @@ h2 {
     text-align: center;
     display: inline-block;
 }
+
+.center {
+    text-align: center;
+}
+/* Table styling */
+
+table {
+    width: 33%;
+    margin: auto;
+    padding: 3px;
+    border: 1px solid #269700;
+    font-weight: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #269700
+}
