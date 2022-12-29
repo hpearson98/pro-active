@@ -70,6 +70,20 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             <li>
                 The Prosto One font is used for the logo because it is unique and distinguishable from the rest of the content.
             </li>
+            <li>
+                The Contrail One font is used for the main hero image covertext. I used this because the slanted text creates a differencial to the rest of the page.
+            </li>
+        </ul>
+    </li>
+    <li>
+        Imagery
+        <ul>
+            <li>
+                The imagery used throughout the website is specifically used to motivate the people who visit the site to get into fitness.
+            </li>
+            <li>
+                I used large hero images to gain the users attention and to give them an immediate visual indication of what the website is about.
+            </li>
         </ul>
     </li>
 </ul>

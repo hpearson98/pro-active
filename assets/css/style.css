@@ -12,8 +12,30 @@ body {
     font-family: Hind, Arial, sans-serif;
 }
 
+h2 {
+    color: #40ff00;
+}
+
 section {
     clear: both;
+}
+
+footer {
+    background: rgb(63, 63, 63);
+}
+
+footer li {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 20px 10%;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color:#40ff00
 }
 
 #logo {
@@ -54,6 +76,7 @@ h2 {
 }
 
 #home-hero-img div {
+    width: 48%;
     background: rgba(59, 59, 59, 0.6);
     color: #40ff00;
     font-family: Contrail One, sans-serif;
@@ -77,11 +100,13 @@ h2 {
     width: 33%;
     text-align: center;
     display: inline-block;
+    position: relative;
 }
 
 .center {
     text-align: center;
 }
+
 /* Table styling */
 
 table {
@@ -94,4 +119,29 @@ table {
 
 tr:nth-child(even) {
     background-color: #269700
+}
+
+/* Membership page css */
+
+#mem-hero-img {
+    background: url('/assets/images/mem-hero-img.jpg') no-repeat center;
+}
+
+#mem-hero-img div {
+    background: rgba(59, 59, 59, 0.6);
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    font-size: 1.5em;
+}
+
+#mem-hero-img div h3 {
+    display: inline;
+    background: #000;
+    border: 2px solid #40ff00;
+    padding: 4px;
+    margin: 10px auto;
+    position: absolute;
+    bottom: 0;
 }
