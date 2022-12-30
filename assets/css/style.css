@@ -16,10 +16,6 @@ h2 {
     color: #40ff00;
 }
 
-section {
-    clear: both;
-}
-
 footer {
     background: rgb(63, 63, 63);
 }
@@ -47,7 +43,6 @@ footer a:hover {
 }
 
 h2 {
-    text-align: center;
     margin: 20px;
 }
 
@@ -93,7 +88,8 @@ h2 {
 
 .hero-img {
     width: 100%;
-    height: 600px;
+    height: 500px;
+    clear: both;
 }
 
 .three-column {
@@ -101,12 +97,16 @@ h2 {
     text-align: center;
     display: inline-block;
     position: relative;
+    vertical-align: middle;
 }
 
 .center {
     text-align: center;
 }
 
+.clear {
+    clear: both;
+}
 /* Table styling */
 
 table {
@@ -132,16 +132,59 @@ tr:nth-child(even) {
     height: 500px;
     padding: 10px;
     box-sizing: border-box;
+    position: relative;
 
     font-size: 1.5em;
 }
 
-#mem-hero-img div h3 {
+#mem-hero-img div h2 {
+    margin-bottom: 50px;
+}
+
+#mem-hero-img div ul {
+    list-style: none;
+}
+
+#mem-hero-img div ul li {
+    margin: 15px 0;
+}
+
+.price {
     display: inline;
     background: #000;
-    border: 2px solid #40ff00;
-    padding: 4px;
-    margin: 10px auto;
+    border: #40ff00 1px solid;
+    padding: 5px 5px;
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Classes css */
+
+.classes-box {
+    height: 500px;
+}
+
+.classes-box > div {
+    background: rgba(59, 59, 59, 0.6);
+}
+
+.classes-box h2 {
+    font-size: 1.5rem;
+}
+
+#boxfit {
+    background: url('/assets/images/boxfit-img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#strength {
+    background: url('/assets/images/strength-img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#kettlebell {
+    background: url('/assets/images/kettlebell-img.jpg') no-repeat center center;
+    background-size: cover;
 }
