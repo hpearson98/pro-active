@@ -12,10 +12,6 @@ body {
     font-family: Hind, Arial, sans-serif;
 }
 
-h2 {
-    color: #40ff00;
-}
-
 footer {
     background: rgb(63, 63, 63);
 }
@@ -45,6 +41,7 @@ footer a:hover {
 h2 {
     margin: 20px;
     font-size: 2rem;
+    color: #40ff00;
 }
 
 #logo, #menu {
@@ -69,6 +66,8 @@ h2 {
 
 #home-hero-img {
     background: url('/assets/images/home-hero-img.jpg') no-repeat center center;
+    width: 100%;
+    height: 500px;
 }
 
 #home-hero-img div {
@@ -83,10 +82,6 @@ h2 {
     padding: 0 5px;
 }
 
-#facilities {
-
-}
-
 #facilities li {
     list-style: none;
     font-size: 1.5rem;
@@ -94,12 +89,6 @@ h2 {
 
 .active {
     border-bottom: 1px solid #269700;
-}
-
-.hero-img {
-    width: 100%;
-    height: 500px;
-    clear: both;
 }
 
 .two-column {
@@ -144,10 +133,12 @@ tr:nth-child(even) {
 
 #mem-hero-img {
     background: url('/assets/images/mem-hero-img.jpg') no-repeat center;
+    width: 100%;
+    height: 500px;
 }
 
 #mem-hero-img div {
-    background: rgba(59, 59, 59, 0.6);
+    background: rgba(59, 59, 59, 0.7);
     height: 500px;
     padding: 10px;
     box-sizing: border-box;
@@ -193,6 +184,11 @@ tr:nth-child(even) {
     font-size: 1.5rem;
 }
 
+#classes-hero-container {
+    width: 100%;
+    height: 500px;
+}
+
 #boxfit {
     background: url('/assets/images/boxfit-img.jpg') no-repeat center center;
     background-size: cover;
@@ -206,4 +202,53 @@ tr:nth-child(even) {
 #kettlebell {
     background: url('/assets/images/kettlebell-img.jpg') no-repeat center center;
     background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Memberships page */
+
+    .three-column {
+        width: 50%;
+        position: static;
+        margin-top: 5px;
+    }
+
+    #mem-hero-img {
+        background: url('/assets/images/mem-hero-img-max-1200.jpg') no-repeat center center;
+        height: 1600px;
+    }
+}  
+
+@media screen and (max-width: 1000px){
+
+    /* Memeberships page */
+    
+    .three-column {
+        width: 70%;
+    }
+
+    #mem-hero-img {
+        height: 1550px;
+    }
+}
+
+@media  and (max-width: 800px) {
+
+    /* Memberships page */
+
+    .three-column {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #logo, #menu li {
+        float: none;
+        text-align: center;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
 }
