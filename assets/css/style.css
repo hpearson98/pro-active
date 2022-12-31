@@ -218,6 +218,12 @@ tr:nth-child(even) {
         background: url('/assets/images/mem-hero-img-max-1200.jpg') no-repeat center center;
         height: 1600px;
     }
+
+    /* Classes */
+
+    #classes-hero-container {
+        height: 1600px;
+    }
 }  
 
 @media screen and (max-width: 1000px){
@@ -229,6 +235,12 @@ tr:nth-child(even) {
     }
 
     #mem-hero-img {
+        height: 1550px;
+    }
+
+    /* Classes */
+
+    #classes-hero-container {
         height: 1550px;
     }
 }
