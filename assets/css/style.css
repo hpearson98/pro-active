@@ -44,6 +44,7 @@ footer a:hover {
 
 h2 {
     margin: 20px;
+    font-size: 2rem;
 }
 
 #logo, #menu {
@@ -83,13 +84,12 @@ h2 {
 }
 
 #facilities {
-    
+
 }
 
 #facilities li {
     list-style: none;
-    font-size: 2rem;
-
+    font-size: 1.5rem;
 }
 
 .active {
@@ -104,9 +104,10 @@ h2 {
 
 .two-column {
     width: 50%;
-    display: inline-block;
+    float: left;
     vertical-align: middle;
     box-sizing: border-box;
+    position: relative;
 }
 
 .three-column {
@@ -132,6 +133,7 @@ table {
     padding: 3px;
     border: 1px solid #269700;
     font-weight: 0.5rem;
+    font-size: 1.5rem;
 }
 
 tr:nth-child(even) {
