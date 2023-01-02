@@ -87,3 +87,51 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
         </ul>
     </li>
 </ul>
+
+## Features
+
+<ul>
+    <li>
+        Responsive on all device sizes.
+    </li>
+    <li>
+        Interactive elements
+    </li>
+</ul>
+
+## Technologies Used
+
+### Languages Used
+
+<ul>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>
+    </li>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/CSS">CSS3</a>
+    </li>
+</ul>
+
+### Programmes and Libraries Used
+
+<ul>
+    <li>
+        <a href="https://fonts.google.com/">Google Fonts</a>
+        <ul>
+            <li>
+                Google fonts was used to to import the Contrail One, Hind and Prosto One fonts used throughout the website.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://fontawesome.com/icons">Font Awesome</a>
+        <ul>
+            <li>
+                The Font Awesome script was used to implement all the icons used throughout this website.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="">Gitpod</a>
+    </li>
+</ul>

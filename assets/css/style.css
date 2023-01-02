@@ -236,6 +236,11 @@ input[type=submit]:hover {
     background-size: cover;
 }
 
+#confirmation-text {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+}
 @media screen and (max-width: 1200px) {
 
     /* Memberships page */
@@ -294,5 +299,17 @@ input[type=submit]:hover {
 
     #menu ul {
         text-align: center;
+    }
+
+    /* classes page */
+
+    form {
+        font-size: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input, select {
+        font-size: 1rem;
     }
 }
