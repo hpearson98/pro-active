@@ -105,6 +105,9 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
                 The Navigation Bar is clean and easily understandable with titles that clearly explain the subjects of the pages the user will be taken to.
             </li>
             <li>
+                The Navigation bar is used across all pages to allow for easy navigation throughout the site.
+            </li>
+            <li>
                 The Navigation Bar features a hover pseudo class so that the page about to be selected is underlined in green for visual indication.
             </li>
             <li>
@@ -122,6 +125,36 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
                 The Hero Image has a piece of covertext that is designed to inspire the user and the motivate them to explore the website further. 
             </li>
         </ul>
+    </li>
+    <li>
+        The Facilities Section
+        <ul>
+            <li>
+                The facilities is for the user to clearly so what facilities are available at the gym.
+            </li>
+            <li>
+                Icons have been used to provide a visual display as to what facilities are available.
+            </li>
+        </ul>
+    </li>
+    <li>
+        Opening Times section
+        <ul>
+            The Opening Times section tells the user the times the gym is open and the information is clearly displayed using a table. 
+        </ul>
+    </li>
+    <li>
+        The Footer
+        <ul>
+            <li>
+                At the bottom of each page is the footer. The footer provides information that the user may want to access at any moment such as contact details or social media links and therefore they have been displayed on everypage.
+            </li>
+            <li>
+                The footer contains a pseudo class of hover for the social media icons to give the user in intuitive experience and to improve the time on the site.
+            </li>
+        </ul>
+    </li>
+    <li>
     </li>
 </ul>
 
