@@ -92,10 +92,36 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
 
 <ul>
     <li>
-        Responsive on all device sizes.
+        The Main Logo
+        <ul>
+            <li>
+                The Main Logo uses a special font the is different to the rest of the website and a bright green the stands out clealy on the page.
+            </li>
+        </ul>
     </li>
     <li>
-        Interactive elements
+        Navigation Bar
+            <li>
+                The Navigation Bar is clean and easily understandable with titles that clearly explain the subjects of the pages the user will be taken to.
+            </li>
+            <li>
+                The Navigation Bar features a hover pseudo class so that the page about to be selected is underlined in green for visual indication.
+            </li>
+            <li>
+                When the user selects a page, the chosen page will remain underlined in green so the user can clearly see what page they are currently on.
+            </li>
+        </ul>
+    </li>
+    <li>
+        Hero images
+        <ul>
+            <li>
+                The Hero Image the user is greeted with on the home page is there to give an immediate visual indication to the subject of the website. 
+            </li>
+            <li>
+                The Hero Image has a piece of covertext that is designed to inspire the user and the motivate them to explore the website further. 
+            </li>
+        </ul>
     </li>
 </ul>
 

@@ -16,6 +16,10 @@ footer {
     background: rgb(63, 63, 63);
 }
 
+footer p {
+    font-size: 1.5rem;
+}
+
 footer li {
     display: inline-block;
     font-size: 3rem;
@@ -32,7 +36,7 @@ footer a:hover {
 
 #logo {
     color: #40ff00;
-    font-family: Prosto One, sans-serif;
+    font-family: 'Prosto One', sans-serif;
     letter-spacing: 4px;
     float: left;
     margin-left: 20px;
@@ -74,7 +78,7 @@ h2 {
     width: 48%;
     background: rgba(59, 59, 59, 0.6);
     color: #40ff00;
-    font-family: Contrail One, sans-serif;
+    font-family: 'Contrail One', sans-serif;
     font-size: 3rem;
     position: relative;
     left: 25%;
@@ -127,7 +131,6 @@ table {
     margin: auto;
     padding: 3px;
     border: 1px solid #269700;
-    font-weight: 0.5rem;
     font-size: 1.5rem;
 }
 
