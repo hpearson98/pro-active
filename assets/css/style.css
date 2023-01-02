@@ -107,8 +107,14 @@ h2 {
     vertical-align: middle;
 }
 
+.list {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
 .center {
     text-align: center;
+    width: 100%;
 }
 
 .clear {
@@ -171,6 +177,32 @@ tr:nth-child(even) {
 }
 
 /* Classes css */
+
+form {
+    width: 80%;
+    font-size: 1.5rem;
+    border: #40ff00 1px solid;
+    margin: 20px auto;
+}
+
+input, select {
+    width: 80%;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+input[type=submit] {
+    width: 25%;
+    background: #40ff00;
+    border: 2px solid;
+}
+
+input[type=submit]:hover {
+    background: #000;
+    color: #40ff00;
+    border: 2px solid #40ff00;
+}
+
 
 .classes-box {
     height: 500px;
@@ -245,7 +277,7 @@ tr:nth-child(even) {
     }
 }
 
-@media  and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
     /* Memberships page */
 

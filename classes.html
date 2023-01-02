@@ -33,63 +33,107 @@
         <div id="boxfit" class="three-column classes-box" >
             <div>
                 <h2>BOXFIT</h2>
-                <p>
-                    Get fighting fit with our boxfit class.
-                </p>
-                <p>
-                    You will focus on speed and explosivness with an emphasis on boxing.
-                </p>
-                <p>
-                    Monday - 6:00pm
-                </p>
-                <p>
-                    Wednesday - 7:00pm
-                </p>
-                <p>
-                    Friday - 8:00pm
-                </p>
+
+                <ul class="list">
+                    <li>
+                        Get fighting fit with our boxfit class
+                    </li>
+                    <li>
+                        You will focus on speed and explosivness with an emphasis on boxing
+                    </li>
+                    <li>
+                        Monday - 6:00pm
+                    </li>
+                    <li>
+                        Wednesday - 7:00pm
+                    </li>
+                    <li>
+                        Friday - 8:00pm
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="strength" class="three-column classes-box">
             <div>
                 <h2>STRENGTH</h2>
-                <p>
-                    Build strong foundations with our Strength class.
-                </p>
-                <p>
-                    Push yourself to the limit and unlock your true power.
-                </p>
-                <p>
-                    Monday - 7:00pm
-                </p>
-                <p>
-                    Wednesday - 8:00pm
-                </p>
-                <p>
-                    Friday - 6:00pm
-                </p>
+                <ul class=" list">
+                    <li>
+                        Build strong foundations with our Strength class
+                    </li>
+                    <li>
+                        Push yourself to the limit and unlock your true power.
+                    </li>
+                    <li>
+                        Monday - 7:00pm
+                    </li>
+                    <li>
+                        Wednesday - 8:00pm
+                    </li>
+                    <li>
+                        Friday - 6:00pm
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="kettlebell" class="three-column classes-box">
             <div>
                 <h2>KETTLEBELL</h2>
-                <p>
-                    Discover the true power of the Kettlebell.
-                </p>
-                <p>
-                    Use one of the most versatile pieces of equipment to get a full body workout.
-                </p>
-                <p>
-                    Monday - 8:00pm
-                </p>
-                <p>
-                    Wednesday - 6:00pm
-                </p>
-                <p>
-                    Friday - 7:00pm
-                </p>
+                <ul class="list">
+                    <li>
+                        Discover the true power of the Kettlebell
+                    </li>
+                    <li>
+                        Use one of the most versatile pieces of equipment to get a full body workout
+                    </li>
+                    <li>
+                        Monday - 8:00pm
+                    </li>
+                    <li>
+                        Wednesday - 6:00pm
+                    </li>
+                    <li>
+                        Friday - 7:00pm 
+                    </li>
+                </ul>
              </div>
         </div>
+    </section>
+    <section class="center">
+        <form action="" method="POST">
+            <h2>
+                BOOK A CLASS!
+            </h2>
+
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname" required placeholder="Joe">
+            <br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" id="lname" required placeholder="Bloggs">
+            <br>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required placeholder="jbloggs@email.com">
+            <br>
+
+            <label for="class">Choose a Class</label>
+            <select name="class" id="class" required>
+                <option value="boxfit">Boxfit</option>
+                <option value="strength">Strength</option>
+                <option value="kettlebell">Kettlebell</option>
+            </select>
+            <br>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"required>
+            <br>
+
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" required>
+            <br>
+
+            <input type="submit" value="BOOK CLASS">
+        </form>
     </section>
     <footer class="center">
         <section>
