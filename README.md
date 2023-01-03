@@ -101,6 +101,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
     </li>
     <li>
         Navigation Bar
+        <ul>
             <li>
                 The Navigation Bar is clean and easily understandable with titles that clearly explain the subjects of the pages the user will be taken to.
             </li>
@@ -140,7 +141,9 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
     <li>
         Opening Times section
         <ul>
-            The Opening Times section tells the user the times the gym is open and the information is clearly displayed using a table. 
+            <li>
+                The Opening Times section tells the user the times the gym is open and the information is clearly displayed using a table. 
+            </li>
         </ul>
     </li>
     <li>
@@ -153,8 +156,6 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
                 The footer contains a pseudo class of hover for the social media icons to give the user in intuitive experience and to improve the time on the site.
             </li>
         </ul>
-    </li>
-    <li>
     </li>
 </ul>
 
@@ -191,6 +192,56 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
         </ul>
     </li>
     <li>
-        <a href="">Gitpod</a>
+        <a href="https://ianlunn.github.io/Hover/">Hover.css</a>
+        <ul>
+            <li>
+                Hover.css was used on the social meadia icons in the  footer and on the navigation links in the header. 
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://git-scm.com/">Git</a>
+        <ul>
+            <li>
+                Git was used for version control by using the Gitpod terminal to regularly commit to Git and push to Github.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://github.com/">Github</a>
+        <ul>
+            <li>
+                Github was used to store the project's code once it was pushed from Git.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="https://balsamiq.com/">Balsamiq</a>
+        <ul>
+            <li>
+                Balsamiq was used in the design process to create wireframes for the project. This made it easy to visualize the layout of the website.
+            </li>
+        </ul>
+    </li>
+</ul>
+
+## Testing
+
+<ul>
+    <li>
+        <a href="https://validator.w3.org/#validate_by_input">W3S Markup Validator</a>
+        <ul>
+            <li>
+                The W3S Markup Validator was used to ensure the HTML code was free of any syntax errors.
+            </li>
+        </ul>
+    </li>
+    <li>
+       <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3S CSS Validator</a>
+        <ul>
+            <li>
+                The W3S CSS Validator was used to ensure the CSS code was free of any syntax errors.
+            </li>
+        </ul>
     </li>
 </ul>
