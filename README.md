@@ -245,3 +245,109 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
         </ul>
     </li>
 </ul>
+
+### Testing User Stories
+
+<ul>
+    <li>
+        First Time User Goals
+        <ul>
+            <li>
+                As a first time user, I want to easily be able to navigate the site and find out the purpose of the organisation.
+                <ul>
+                    <li>
+                        When the user first loads the site, they are greeted by the Logo and the Navigation bar that run along the top of the page.
+                    </li>
+                    <li>
+                        There is a large hero image on the Home page that gives a clear visual indication on what the website is about and the type of content it will contain
+                    </li>
+                </ul>
+            </li>
+            <li>
+                As a first time user, I want to be able to find out essential information, such as the opening times, locations and how to sign up for a membership.
+                <ul>
+                    <li>
+                        On the Home page the user can easily find out the opening times on the home page
+                    </li>
+                    <li>
+                        In the footer of each page is the Contact Us section, where the user can find a phone number, email address and the location of the gym.
+                    </li>
+                    <li>
+                        The Navigation Bar clear contains a Memberships section where the user can find out details on the memberships available.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Returning Visitor Goals
+        <ul>
+            <li>
+                As a returning visitor, I would like to find out what classes are available and what times they are on.
+                <ul>
+                    <li>
+                        The Navigation Bar has a link to the Classes page where the user can find out the the details about the classes available.
+                    </li>
+                    <li>
+                        On the Classes page there is a form the user can use to book a class.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+### Further Testing
+
+<ul>
+    <li>
+        The website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safar browsers.
+    </li>
+    <li>
+        The website has been tested on multiple devices with various viewport widths including a desktop, a laptop and an iPhone 14.
+    </li>
+</ul>
+## Credits
+
+<ul>
+    <li>
+        Code
+        <ul>
+            <li>
+                This <a href="https://stackoverflow.com/questions/57881798/why-displayinline-block-alignment-is-not-as-expected">Stack Overflow</a> thread help me with aligning inline-block elements so that they are level.   
+            </li>
+        </ul>
+    </li>
+    <li>
+        Media
+        <ul>
+            <li>
+                The pictures used are from <a href="https://www.pexels.com/">Pexels</a>. I have linked the photographers and artist used below.
+                <ul>
+                    <li>
+                        <a href="https://www.pexels.com/@victorfreitas/">Victor Freitas</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/@willpicturethis/">William Choquette</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/@thelazyartist/">The Lazy Artist Gallery</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/@cristian-rojas/">Los Muertos Crew</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/@ivan-samkov/">Ivan Samkov</a>
+                    </li>
+                </ul>
+            </li>    
+        </ul>
+    </li>
+    <li>
+        Acknowledgements
+        <ul>
+            <li>
+                I would like to that my Mentor for their quality and continuous feedback.  
+            </li>
+        </ul>
+    </li>
+</ul>
