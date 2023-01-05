@@ -246,6 +246,10 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 1200px) {
 
+    table {
+        width: 80%;
+    }
+
     /* Memberships page */
 
     .three-column {
@@ -302,6 +306,10 @@ input[type=submit]:hover {
 
     #menu ul {
         text-align: center;
+    }
+
+    table {
+        width: 100%;
     }
 
     /* classes page */

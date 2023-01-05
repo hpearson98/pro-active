@@ -43,9 +43,6 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             <li>
                 As a frequent visitor, I want to be able to find out about any updates on epuipment and classes.
             </li>
-            <li>
-                As a returning visitor I want to be able to sign up to a newsletter for regular updates, and tips for going to the gym.
-            </li>
         </ul>
     </li>
 </ul>
@@ -295,7 +292,29 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             </li>
         </ul>
     </li>
+    <li>
+        Frequent User Goals
+        <ul>
+            <li>
+                As a frequent visitor, I want to be able to check for any changes to opening times, prices and contact information.
+                <ul>
+                    <li>
+                        The opening times are displayed on the Home page and a regular user would be familiar with the website layout.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                As a frequent visitor, I want to be able to find out about any updates on epuipment and classes.
+                <ul>
+                    <li>
+                        The classes page has all the information related to the classes and a frequent user would already be familiar with the website.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
+
 ### Further Testing
 
 <ul>
@@ -306,6 +325,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
         The website has been tested on multiple devices with various viewport widths including a desktop, a laptop and an iPhone 14.
     </li>
 </ul>
+
 ## Credits
 
 <ul>
