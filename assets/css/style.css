@@ -312,6 +312,16 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    /* Memberships page */
+
+    #mem-hero-img {
+        height: 1850px;
+    }
+
+    #mem-hero-img div {
+        height: 600px;
+    } 
+
     /* classes page */
 
     form {

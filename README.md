@@ -15,9 +15,6 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             <li>
                 As a first time user, I want to be able to find out essential information, such as the opening times, locations and how to sign up for a membership.
             </li>
-            <li>
-                As a first time visitor, I want to see review of people that have been to this gym so I can get an idea of it's credability and find out peoples opinion.
-            </li>
         </ul>
     </li>
     <li>
@@ -28,9 +25,6 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             </li>
             <li>
                 As a returning visitor, I would like to know what equipment is available at the gym.
-            </li>
-            <li>
-                As a returning visitor, I would like to find out some tips for going to the gym and how to get started.
             </li>
         </ul>
     </li>
@@ -96,6 +90,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             </li>
         </ul>
     </li>
+    ![Image of my header](/assets/images/header-screenshot.png)
     <li>
         Navigation Bar
         <ul>
@@ -122,6 +117,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             <li>
                 The Hero Image has a piece of covertext that is designed to inspire the user and the motivate them to explore the website further. 
             </li>
+            ![Image of Hero Image](/assets/images/hero-img-screenshot.png)
         </ul>
     </li>
     <li>
@@ -133,6 +129,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
             <li>
                 Icons have been used to provide a visual display as to what facilities are available.
             </li>
+            ![Image of Facilities section](/assets/images/facilities-screenshot.png)
         </ul>
     </li>
     <li>
@@ -287,6 +284,17 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
                     </li>
                     <li>
                         On the Classes page there is a form the user can use to book a class.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                As a returning visitor, I would like to know what equipment is available at the gym.
+                <ul>
+                    <li>
+                        In the "Why Join?" section on the Memberships page, there is a list of the gyms various equipment.
+                    </li>
+                    <li>
+                        On the Home page there is a "Facilities" section that list the facilities available at the gym.
                     </li>
                 </ul>
             </li>
