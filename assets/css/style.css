@@ -15,9 +15,8 @@ body {
 
 footer {
     background: rgb(63, 63, 63);
-    position:absolute;
-    left: 0;
     margin-top: 20px;
+    width: 100%;
 }
 
 footer p {
