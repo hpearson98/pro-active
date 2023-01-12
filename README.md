@@ -114,6 +114,23 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
     * I have confirmed that the fonts and colours chosen are easy to understand and the use of aria labels makes the website accessible by running it through lighthouse in devtools.
 ![Screenshot of lighthouse results](assets/images/lighthouse.png)
 
+### Solved Bugs
+* I had an issue where my css and images were not linked to the deployed version because I had used absolute file paths.
+    * To solve this I changed the change the links to the css stylesheet and images to relative file paths.
+* I had an Issue where my three column sections would not align properly.
+    * To fix this issue I added the following css code to the three divs I wanted to align: `vertical-align: middle;`.
+
+### Unsolveed Bugs
+* Due to the nature of `float: right;`, my navigation bar elements are technically back to front.
+    * I tried searching the internet and visited sites including [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) where I applied several pieces of code to try and solve the problem.
+* I tried the make the footer stick to the bottom of the site applying the following css code to the footer:
+```
+position: absolute;
+bottom: 0;
+left: 0;
+```
+This unfortunatley caused the footer to overlap of elemnets on the page rather than occupy its own space.
+
 ### Testing User Stories
 
 * **First Time User Goals**
@@ -191,6 +208,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * **Code**
     * This [Stack Overflow](https://stackoverflow.com/questions/57881798/why-displayinline-block-alignment-is-not-as-expected) thread help me with aligning inline-block elements so that they are level. 
+    * The code used for the header was taken from the [Code Institute](https://codeinstitute.net/) Love Running project.
+    * The code used for the social media links in the footer was taken from the [Code Institute](https://codeinstitute.net/) Love Running project.
 * **Media**
     * The pictures used are from [Pexels](https://www.pexels.com/). I have linked the photographers and artist used below. 
         * [Victor Freitas](https://www.pexels.com/@victorfreitas/)
