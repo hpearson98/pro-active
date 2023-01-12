@@ -99,6 +99,10 @@ h2 {
     border-bottom: 1px solid #269700;
 }
 
+.text-dec-none {
+    text-decoration: none;
+}
+
 .two-column {
     width: 50%;
     float: left;
