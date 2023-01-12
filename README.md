@@ -37,7 +37,7 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
 ### Main Logo
 
 * The Main Logo uses a special font the is different to the rest of the website and a bright green the stands out clealy on the page.
-![Image of my header](/assets/images/header-screenshot.png)
+![Image of my header](assets/images/header-screenshot.png)
 
 ### Navigation Bar
 
@@ -50,35 +50,35 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
 
 * The Hero Image the user is greeted with on the home page is there to give an immediate visual indication to the subject of the website.       
 * The Hero Image has a piece of covertext that is designed to inspire the user and the motivate them to explore the website further.       
-![Image of Hero Image](/assets/images/hero-img-screenshot.png)
+![Image of Hero Image](assets/images/hero-img-screenshot.png)
         
 ### Facilities Section
 
 * The facilities is for the user to clearly so what facilities are available at the gym.
 * Icons have been used to provide a visual display as to what facilities are available.   
-![Image of Facilities section](/assets/images/facilities-screenshot.png)
+![Image of Facilities section](assets/images/facilities-screenshot.png)
         
 ### Opening Times Section
 
 * The Opening Times section tells the user the times the gym is open and the information is clearly displayed using a table.
-![Image of Opening Times section](/assets/images/opening-times-screenshot.png)
+![Image of Opening Times section](assets/images/opening-times-screenshot.png)
 
 ### The Footer
 
 *  At the bottom of each page is the footer. The footer provides information that the user may want to access at any moment such as contact details or social media links and therefore they have been displayed on everypage.
 * The footer contains a pseudo class of hover for the social media icons to give the user in intuitive experience and to improve the time on the site.
-![Image of the Footer](/assets/images/footer-screenshot.png)
+![Image of the Footer](assets/images/footer-screenshot.png)
 
 ### Membership Options
 
 * On the Memberships page, the user is clear shown the various membership options and the prices
-![Image of membership options](/assets/images/memberships-screenshot.png)
+![Image of membership options](assets/images/memberships-screenshot.png)
 
 ### Book a Class Form
 
 * On the classes page, the user is able to book a class by filling out the form provided.
 * To ensure the form is filled out correctly, required attributes have been put on each input element and the select element in the form.
-![Image of the Book a Class Form](/assets/images/book-class-screenshot.png)
+![Image of the Book a Class Form](assets/images/book-class-screenshot.png)
 
 ## Technologies Used
 
@@ -108,6 +108,9 @@ This is a static website using HTML and CSS. It is based on a fictitious Gym tha
     * The W3S Markup Validator was used to ensure the HTML code was free of any syntax errors.
 * [W3S CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     * The W3S CSS Validator was used to ensure the CSS code was free of any syntax errors.
+* Accessibility
+    * I have confirmed that the fonts and colours chosen are easy to understand and the use of aria labels makes the website accessible by running it through lighthouse in devtools.
+![Screenshot of lighthouse results](assets/images/lighthouse.png)
 
 ### Testing User Stories
 
