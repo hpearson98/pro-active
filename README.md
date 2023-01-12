@@ -129,7 +129,7 @@ position: absolute;
 bottom: 0;
 left: 0;
 ```
-This unfortunatley caused the footer to overlap of elemnets on the page rather than occupy its own space.
+This unfortunatley caused the footer to overlap other elemnets on the page rather than occupy its own space.
 
 ### Testing User Stories
 
