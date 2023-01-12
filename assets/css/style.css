@@ -14,6 +14,9 @@ body {
 
 footer {
     background: rgb(63, 63, 63);
+    position:absolute;
+    bottom: 0;
+    left: 0;
 }
 
 footer p {
@@ -51,6 +54,7 @@ h2 {
 #logo, #menu {
     line-height: 75px;
 }
+
 /* Navigation Bar styling */
 
 #menu li {
@@ -180,7 +184,7 @@ tr:nth-child(even) {
     transform: translateX(-50%);
 }
 
-/* Classes css */
+/* Classes page css */
 
 form {
     width: 80%;
@@ -245,6 +249,7 @@ input[type=submit]:hover {
     font-size: 1.5rem;
     padding: 5px;
 }
+
 @media screen and (max-width: 1200px) {
 
     table {
