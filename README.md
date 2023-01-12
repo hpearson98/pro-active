@@ -2,6 +2,8 @@
 
 This is a static website using HTML and CSS. It is based on a fictitious Gym that is aimed at people who want to start their fitness journey or already have a fitness routine.
 
+![Different screenshots of the website on differnet viewports](assets/images/responsive-screenshots.png)
+
 ## User Experience
 
 ### User Stories
