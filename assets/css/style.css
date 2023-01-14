@@ -51,7 +51,7 @@ h2 {
     color: #40ff00;
 }
 
-#logo, #menu {
+.header-line-height {
     line-height: 75px;
 }
 
@@ -72,13 +72,11 @@ h2 {
     border-bottom: 1px solid #269700;
 }
 
-#home-hero-img {
+.home-hero-img {
     background: url('../images/home-hero-img.jpg') no-repeat center center;
-    width: 100%;
-    height: 500px;
 }
 
-#home-hero-img div {
+.home-hero-covertext {
     width: 48%;
     background: rgba(59, 59, 59, 0.6);
     color: #40ff00;
@@ -90,7 +88,7 @@ h2 {
     padding: 0 5px;
 }
 
-#facilities li {
+.facilities {
     list-style: none;
     font-size: 1.5rem;
 }
@@ -149,13 +147,11 @@ tr:nth-child(even) {
 
 /* Membership page css */
 
-#mem-hero-img {
+.mem-hero-img {
     background: url('../images/mem-hero-img.jpg') no-repeat center;
-    width: 100%;
-    height: 500px;
 }
 
-#mem-hero-img div {
+.mem-price-list {
     background: rgba(59, 59, 59, 0.7);
     height: 500px;
     padding: 10px;
@@ -165,15 +161,15 @@ tr:nth-child(even) {
     font-size: 1.5em;
 }
 
-#mem-hero-img div h2 {
+.mem-hero-img div h2 {
     margin-bottom: 50px;
 }
 
-#mem-hero-img div ul {
+.mem-hero-img div ul {
     list-style: none;
 }
 
-#mem-hero-img div ul li {
+.mem-hero-img div ul li {
     margin: 15px 0;
 }
 
@@ -228,27 +224,28 @@ input[type=submit]:hover {
     font-size: 1.5rem;
 }
 
-#classes-hero-container {
+.hero-container {
     width: 100%;
     height: 500px;
 }
 
-#boxfit {
+.boxfit {
     background: url('../images/boxfit-img.jpg') no-repeat center center;
-    background-size: cover;
 }
 
-#strength {
+.strength {
     background: url('../images/strength-img.jpg') no-repeat center center;
-    background-size: cover;
 }
 
-#kettlebell {
+.kettlebell {
     background: url('../images/kettlebell-img.jpg') no-repeat center center;
+}
+
+.bg-cover {
     background-size: cover;
 }
 
-#confirmation-text {
+.confirmation-text {
     width: 100%;
     font-size: 1.5rem;
     padding: 5px;
