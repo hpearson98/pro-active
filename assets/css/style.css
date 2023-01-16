@@ -151,22 +151,21 @@ tr:nth-child(even) {
     background: url('../images/mem-hero-img.jpg') no-repeat center;
 }
 
+.price-list-container {
+    height: 50%;
+}
+
 .mem-price-list {
     background: rgba(59, 59, 59, 0.7);
     height: 500px;
     padding: 10px;
     box-sizing: border-box;
     position: relative;
-
     font-size: 1.5em;
 }
 
 .mem-hero-img div h2 {
     margin-bottom: 50px;
-}
-
-.mem-hero-img div ul {
-    list-style: none;
 }
 
 .mem-hero-img div ul li {
@@ -178,10 +177,9 @@ tr:nth-child(even) {
     background: #000;
     border: #40ff00 1px solid;
     padding: 5px 5px;
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
+    position: relative;
     transform: translateX(-50%);
+    margin-top: 20px
 }
 
 /* Classes page css */
@@ -265,14 +263,14 @@ input[type=submit]:hover {
         margin-top: 5px;
     }
 
-    #mem-hero-img {
+    .mem-hero-img {
         background: url('../images/mem-hero-img-max-1200.jpg') no-repeat center center;
         height: 1600px;
     }
 
     /* Classes */
 
-    #classes-hero-container {
+    .classes-hero-container {
         height: 1600px;
     }
 }  
